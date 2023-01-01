@@ -33,6 +33,14 @@ body {
     text-align: center;
     letter-spacing: -1.42857px;
     color: #512051;
+
+    // 1200/16=75
+    @media only screen and (min-width: 75em) {
+        text-align: left;
+        font-size: 56px;
+        line-height: 48px;
+        letter-spacing: -2px;
+    }
 }
 
 .paragraph {
@@ -42,6 +50,10 @@ body {
     text-align: center;
     letter-spacing: -0.633333px;
     color: #927b91;
+
+    @media only screen and (min-width: 75em) {
+        text-align: left;
+    }
 }
 
 // SECTIONS
@@ -60,5 +72,9 @@ body {
 .u-margin-bottom-17px {
     margin-bottom: 17px;
 }
+
+// 1200/16=75
+// @media only screen and (min-width: 75em) {
+// }
 
 // END

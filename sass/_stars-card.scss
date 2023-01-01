@@ -8,12 +8,33 @@
         margin-bottom: 16px;
     }
 
+    @media only screen and (min-width: 75em) {
+        width: 445px;
+        height: 56px;
+        padding: 20px 0 20px 32px;
+        text-align: revert;
+        display: flex;
+
+        &:nth-child(2) {
+            margin-left: 48px;
+        }
+
+        &:nth-child(3) {
+            margin-left: 95px;
+        }
+    }
+
     &__stars-box {
         width: fit-content;
         margin: 0 auto;
         display: flex;
         gap: 8.45px;
         margin-bottom: 15px;
+
+        @media only screen and (min-width: 75em) {
+            margin: 0;
+            margin-right: 32.45px;
+        }
     }
 
     &__h2 {

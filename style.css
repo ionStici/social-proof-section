@@ -30,6 +30,14 @@ body {
   letter-spacing: -1.42857px;
   color: #512051;
 }
+@media only screen and (min-width: 75em) {
+  .h1 {
+    text-align: left;
+    font-size: 56px;
+    line-height: 48px;
+    letter-spacing: -2px;
+  }
+}
 
 .paragraph {
   font-weight: 500;
@@ -38,6 +46,11 @@ body {
   text-align: center;
   letter-spacing: -0.633333px;
   color: #927b91;
+}
+@media only screen and (min-width: 75em) {
+  .paragraph {
+    text-align: left;
+  }
 }
 
 .main {
@@ -53,16 +66,39 @@ body {
   margin-bottom: 17px;
 }
 
+@media only screen and (min-width: 75em) {
+  .header {
+    width: 1110px;
+    margin: 118px auto 71px auto;
+    display: grid;
+    grid-template-columns: 445px 540px;
+    column-gap: 125px;
+  }
+}
 .header__text {
   max-width: 700px;
   margin: 82px auto 39px auto;
   padding: 0 24px;
+}
+@media only screen and (min-width: 75em) {
+  .header__text {
+    margin: 0;
+    padding: 0;
+    grid-column: 1/2;
+  }
 }
 .header__cards {
   max-width: 500px;
   margin: 0 auto;
   margin-bottom: 49px;
   padding: 0 24px;
+}
+@media only screen and (min-width: 75em) {
+  .header__cards {
+    padding: 0;
+    margin: 0;
+    grid-column: 2/3;
+  }
 }
 
 .card {
@@ -74,12 +110,33 @@ body {
 .card:not(:last-child) {
   margin-bottom: 16px;
 }
+@media only screen and (min-width: 75em) {
+  .card {
+    width: 445px;
+    height: 56px;
+    padding: 20px 0 20px 32px;
+    text-align: revert;
+    display: flex;
+  }
+  .card:nth-child(2) {
+    margin-left: 48px;
+  }
+  .card:nth-child(3) {
+    margin-left: 95px;
+  }
+}
 .card__stars-box {
   width: fit-content;
   margin: 0 auto;
   display: flex;
   gap: 8.45px;
   margin-bottom: 15px;
+}
+@media only screen and (min-width: 75em) {
+  .card__stars-box {
+    margin: 0;
+    margin-right: 32.45px;
+  }
 }
 .card__h2 {
   font-weight: 700;
