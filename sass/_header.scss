@@ -1,0 +1,14 @@
+.header {
+    &__text {
+        max-width: 700px;
+        margin: 82px auto 39px auto;
+        padding: 0 24px;
+    }
+
+    &__cards {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 49px;
+        padding: 0 24px;
+    }
+}
