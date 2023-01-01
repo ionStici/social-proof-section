@@ -4,10 +4,10 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Table of contents
 
-- [Screenshot](#screenshot)
-- [Links](#links)
-- [Built with](#built-with)
-- [Author](#author)
+-   [Screenshot](#screenshot)
+-   [Links](#links)
+-   [Built with](#built-with)
+-   [Author](#author)
 
 ## Screenshot
 
@@ -15,20 +15,20 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Links
 
-- [Solution URL](https://github.com/ionStici/social-proof-section-master)
-- [Live Site URL](https://ionstici.github.io/social-proof-section-master)
+-   [Solution URL](https://github.com/ionStici/social-proof-section-master)
+-   [Live Site URL](https://ionstici.github.io/social-proof-section-master)
 
 ## Built with
 
-<!-- - Semantic HTML5 markup
-- CSS Grid and Flexbox
-- Mobile-first workflow -->
+-   Semantic HTML5 markup
+-   CSS Grid and Flexbox
+-   Mobile-first workflow
 
 ## Author
 
-- [GitHub](https://github.com/ionStici)
-- [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
-- [Twitter](https://twitter.com/ionStici_)
+-   [GitHub](https://github.com/ionStici)
+-   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
+-   [Twitter](https://twitter.com/ionStici_)
 
 <!-- # Front-end Style Guide
 

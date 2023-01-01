@@ -60,11 +60,21 @@ body {
 
 .main {
     margin: 0 24px 99px 24px;
+
+    @media only screen and (min-width: 75em) {
+        margin-bottom: 100px;
+    }
 }
 
 .section-reviews {
     max-width: 600px;
     margin: 0 auto;
+
+    @media only screen and (min-width: 75em) {
+        max-width: revert;
+        width: 1110px;
+        display: flex;
+    }
 }
 
 // UTILITIES
@@ -72,9 +82,5 @@ body {
 .u-margin-bottom-17px {
     margin-bottom: 17px;
 }
-
-// 1200/16=75
-// @media only screen and (min-width: 75em) {
-// }
 
 // END

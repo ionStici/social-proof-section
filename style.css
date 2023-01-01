@@ -56,10 +56,22 @@ body {
 .main {
   margin: 0 24px 99px 24px;
 }
+@media only screen and (min-width: 75em) {
+  .main {
+    margin-bottom: 100px;
+  }
+}
 
 .section-reviews {
   max-width: 600px;
   margin: 0 auto;
+}
+@media only screen and (min-width: 75em) {
+  .section-reviews {
+    max-width: revert;
+    width: 1110px;
+    display: flex;
+  }
 }
 
 .u-margin-bottom-17px {
@@ -82,6 +94,7 @@ body {
 }
 @media only screen and (min-width: 75em) {
   .header__text {
+    max-width: revert;
     margin: 0;
     padding: 0;
     grid-column: 1/2;
@@ -95,6 +108,7 @@ body {
 }
 @media only screen and (min-width: 75em) {
   .header__cards {
+    max-width: revert;
     padding: 0;
     margin: 0;
     grid-column: 2/3;
@@ -152,6 +166,21 @@ body {
 }
 .review:not(:last-child) {
   margin-bottom: 16px;
+}
+@media only screen and (min-width: 75em) {
+  .review {
+    height: 234px;
+  }
+  .review:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .review:nth-child(2) {
+    margin-top: 16px;
+  }
+  .review:nth-child(3) {
+    margin-top: 32px;
+  }
 }
 .review__profile-box {
   display: flex;
