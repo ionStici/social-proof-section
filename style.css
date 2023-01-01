@@ -88,4 +88,46 @@ body {
   color: #512051;
 }
 
+.review {
+  padding: 40px 32px 35px 32px;
+  background-color: #512051;
+  border-radius: 8px;
+}
+.review:not(:last-child) {
+  margin-bottom: 16px;
+}
+.review__profile-box {
+  display: flex;
+  align-items: center;
+}
+.review__profile-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 23px;
+  border-radius: 50%;
+}
+.review__name-box {
+  margin-bottom: 23px;
+}
+.review__name {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+.review__status {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 16px;
+  color: #ee69a4;
+}
+.review__text {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.303571px;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */

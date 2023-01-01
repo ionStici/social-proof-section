@@ -1,0 +1,48 @@
+.review {
+    padding: 40px 32px 35px 32px;
+    background-color: #512051;
+    border-radius: 8px;
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    &__profile-box {
+        display: flex;
+        align-items: center;
+    }
+
+    &__profile-img {
+        width: 40px;
+        height: 40px;
+        margin-right: 23px;
+        border-radius: 50%;
+    }
+
+    &__name-box {
+        margin-bottom: 23px;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 16px;
+        color: #ffffff;
+        margin-bottom: 4px;
+    }
+
+    &__status {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 16px;
+        color: #ee69a4;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.303571px;
+        color: #ffffff;
+    }
+}
