@@ -26,7 +26,8 @@
 
     &__profile-box {
         display: flex;
-        align-items: center;
+        margin-bottom: 23px;
+        // align-items: center;
     }
 
     &__profile-img {
@@ -37,7 +38,7 @@
     }
 
     &__name-box {
-        margin-bottom: 23px;
+        // margin-bottom: 23px;
     }
 
     &__name {
