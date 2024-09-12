@@ -1,64 +1,15 @@
-# Social proof section solution
+# Social Proof Section Solution
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). The goal of this project is to build a clean and responsive social proof section that highlights customer testimonials and high product ratings.
 
-## Table of contents
+## Technologies Used
 
--   [Screenshot](#screenshot)
--   [Links](#links)
--   [Built with](#built-with)
--   [Author](#author)
+- **HTML**: For creating the structure of the section.
+- **SCSS (Sass)**: For styling, keeping the CSS well-organized and scalable.
 
 ## Screenshot
 
+| [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-_yEF3eF2fS) | [Live Demo URL](https://ionstici.github.io/social-proof-section) |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+
 ![](./images/screenshot.png)
-
-## Links
-
--   [Solution URL](https://github.com/ionStici/social-proof-section-master)
--   [Live Site URL](https://ionstici.github.io/social-proof-section-master)
-
-## Built with
-
--   Semantic HTML5 markup
--   CSS Grid and Flexbox
--   Mobile-first workflow
-
-## Author
-
--   [GitHub](https://github.com/ionStici)
--   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
--   [Twitter](https://twitter.com/ionStici_)
-
-<!-- # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-Very Dark Magenta: hsl(300, 43%, 22%)
-Soft Pink: hsl(333, 80%, 67%)
-
-### Neutral
-
-Dark Grayish Magenta: hsl(303, 10%, 53%)
-Light Grayish Magenta: hsl(300, 24%, 96%)
-White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
-- Weights: 400, 500, 700 -->

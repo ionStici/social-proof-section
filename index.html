@@ -3,107 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Social proof section</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta
+      name="description"
+      content="Code solution for 'Social proof section' challenge from Frontend Mentor"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-
-
     <header class="header">
+      <div class="header__text">
+        <h1 class="h1 u-margin-bottom-17px">10,000+ of our users love our products.</h1>
+        <p class="paragraph">
+          We only provide great products combined with excellent customer service. See what our
+          satisfied customers are saying about our services.
+        </p>
+      </div>
 
-        <div class="header__text">
-            <h1 class="h1 u-margin-bottom-17px">10,000+ of our users love our products.</h1>
-            <p class="paragraph">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+      <div class="header__cards">
+        <div class="card">
+          <div class="card__stars-box">
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+          </div>
+          <h2 class="card__h2">Rated 5 Stars in Reviews</h2>
         </div>
 
-        <div class="header__cards">
-
-            <div class="card">
-                <div class="card__stars-box">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                </div>
-                <h2 class="card__h2">Rated 5 Stars in Reviews</h2>
-            </div>
-
-            <div class="card">
-                <div class="card__stars-box">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                </div>
-                <h2 class="card__h2">Rated 5 Stars in Report Guru</h2>
-            </div>
-
-            <div class="card">
-                <div class="card__stars-box">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                    <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon">
-                </div>
-                <h2 class="card__h2">Rated 5 Stars in BestTech</h2>
-            </div>
-
+        <div class="card">
+          <div class="card__stars-box">
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+          </div>
+          <h2 class="card__h2">Rated 5 Stars in Report Guru</h2>
         </div>
 
+        <div class="card">
+          <div class="card__stars-box">
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+            <img class="card__star-icon" src="./images/icon-star.svg" alt="Star Icon" />
+          </div>
+          <h2 class="card__h2">Rated 5 Stars in BestTech</h2>
+        </div>
+      </div>
     </header>
 
-
     <main class="main">
-        <section class="section-reviews">
-
-
-            <div class="review">
-                <div class="review__profile-box">
-                    <img class="review__profile-img" src="./images/image-colton.jpg" alt="User profile image">
-                    <div class="review__name-box">
-                        <p class="review__name">Colton Smith</p>
-                        <p class="review__status">Verified Buyer</p>
-                    </div>
-                </div>
-
-                <p class="review__text">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+      <section class="section-reviews">
+        <div class="review">
+          <div class="review__profile-box">
+            <img
+              class="review__profile-img"
+              src="./images/image-colton.jpg"
+              alt="User profile image"
+            />
+            <div class="review__name-box">
+              <p class="review__name">Colton Smith</p>
+              <p class="review__status">Verified Buyer</p>
             </div>
+          </div>
 
-            <div class="review">
-                <div class="review__profile-box">
-                    <img class="review__profile-img" src="./images/image-irene.jpg" alt="User profile image">
-                    <div class="review__name-box">
-                        <p class="review__name">Irene Roberts</p>
-                        <p class="review__status">Verified Buyer</p>
-                    </div>
-                </div>
+          <p class="review__text">
+            "We needed the same printed design as the one we had ordered a week prior. Not only did
+            they find the original order, but we also received it in time. Excellent!"
+          </p>
+        </div>
 
-                <p class="review__text">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+        <div class="review">
+          <div class="review__profile-box">
+            <img
+              class="review__profile-img"
+              src="./images/image-irene.jpg"
+              alt="User profile image"
+            />
+            <div class="review__name-box">
+              <p class="review__name">Irene Roberts</p>
+              <p class="review__status">Verified Buyer</p>
             </div>
+          </div>
 
-            <div class="review">
-                <div class="review__profile-box">
-                    <img class="review__profile-img" src="./images/image-anne.jpg" alt="User profile image">
-                    <div class="review__name-box">
-                        <p class="review__name">Anne Wallace</p>
-                        <p class="review__status">Verified Buyer</p>
-                    </div>
-                </div>
+          <p class="review__text">
+            "Customer service is always excellent and very quick turn around. Completely delighted
+            with the simplicity of the purchase and the speed of delivery."
+          </p>
+        </div>
 
-                <p class="review__text">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+        <div class="review">
+          <div class="review__profile-box">
+            <img
+              class="review__profile-img"
+              src="./images/image-anne.jpg"
+              alt="User profile image"
+            />
+            <div class="review__name-box">
+              <p class="review__name">Anne Wallace</p>
+              <p class="review__status">Verified Buyer</p>
             </div>
-            
+          </div>
 
-        </section>
+          <p class="review__text">
+            "Put an order with this company and can only praise them for the very high standard.
+            Will definitely use them again and recommend them to everyone!"
+          </p>
+        </div>
+      </section>
     </main>
-
-
   </body>
 </html>
